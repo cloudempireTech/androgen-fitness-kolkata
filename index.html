@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Androgen — The Fitness Studio | Premier Gym in Baghajatin, Kolkata</title>
+  <meta name="description" content="South Kolkata's elite fitness studio on Raja SC Mallick Rd, Baghajatin. Olympic powerlifting, biomechanical strength machinery, turf conditioning, and certified personal coaching.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,700;0,800;0,900;1,700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="ambient-glow-wrapper">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+  <div class="tech-grid-overlay"></div>
+
+  <!-- TheDivine Floating Pill Navbar -->
+  <header class="the-divine-nav">
+    <a href="index.html" class="brand-wrapper">
+      <div class="brand-emblem">
+        <svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+      </div>
+      <div class="brand-text">
+        <span class="brand-name">ANDROGEN</span>
+        <span class="brand-sub">FITNESS STUDIO &bull; KOLKATA</span>
+      </div>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="transformations.html">Transformations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+    </ul>
+
+    <div class="nav-cta-wrapper">
+      <a href="https://wa.me/919007277594?text=Hello%20Androgen%20Studio!%20I%20would%20like%20to%20book%20a%20free%201-day%20trial%20workout." class="btn-cta-pill">
+        Free Day Pass
+      </a>
+      <a href="https://wa.me/919007277594" class="btn-nav-wa" aria-label="Chat on WhatsApp">
+        <svg class="wa-icon-dual" viewBox="0 0 24 24" width="20" height="20">
+          <circle cx="12" cy="12" r="11" fill="#FFFFFF"/>
+          <path d="M17.5 14.4c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1-.2.2-.6.7-.8.9-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.7-.6-1.1-1.3-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4-.1-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.1 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3z" fill="#25D366"/>
+        </svg>
+      </a>
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle Navigation">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobileDrawer">
+    <ul class="mobile-drawer-links">
+      <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="trainers.html">Trainers</a></li>
+        <li><a href="transformations.html">Transformations</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+    </ul>
+    <a href="https://wa.me/919007277594?text=Hello%20Androgen!%20I%20would%20like%20to%20claim%20my%201-day%20guest%20trial%20pass." class="btn-hero-primary" style="margin-top: 1rem;">
+      <svg class="wa-icon-dual" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="11" fill="#FFFFFF"/>
+        <path d="M17.5 14.4c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1-.2.2-.6.7-.8.9-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.7-.6-1.1-1.3-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4-.1-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.1 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3z" fill="#25D366"/>
+      </svg>
+      <span>Claim Free 1-Day Trial Pass</span>
+    </a>
+  </div>
+
+  <!-- Hero Section with 16:9 4K Video & Fold-Proof Telemetry -->
+  <section class="hero-section">
+    <div class="hero-video-container">
+      <video id="heroVideo" class="hero-video" autoplay loop muted playsinline poster="assets/images/hero-poster.jpg">
+        <source src="assets/videos/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero-gradient-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="live-beacon"></span>
+        <span>OPEN DAILY 6:00 AM &ndash; 10:45 PM &bull; RAJA SC MALLICK RD, BAGHAJATIN</span>
+      </div>
+
+      <h1 class="hero-title">
+        High-Performance <br><span class="gradient-text">Athletic Training Studio</span>
+      </h1>
+
+      <div class="hero-typewriter-container">
+        <span id="heroTypewriter"></span>
+      </div>
+
+      <p class="hero-lead">
+        Elevate your strength and physique with Olympic powerlifting stations, imported biomechanical machinery, high-intensity turf tracks, and science-backed personal coaching.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="https://wa.me/919007277594?text=Hello%20Androgen%20Studio!%20I%20would%20like%20to%20claim%20my%20complimentary%201-day%20guest%20trial%20pass." class="btn-hero-primary">
+          <svg class="wa-icon-dual" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="11" fill="#FFFFFF"/>
+            <path d="M17.5 14.4c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1-.2.2-.6.7-.8.9-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.7-.6-1.1-1.3-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4-.1-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.1 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3z" fill="#25D366"/>
+          </svg>
+          <span>Claim 1-Day Free Trial (+91 90072 77594)</span>
+        </a>
+        <a href="facilities.html" class="btn-hero-secondary">
+          <span>Explore Facilities</span>
+        </a>
+      </div>
+
+      <!-- Telemetry Stats Grid (Guaranteed Above 844px Fold) -->
+      <div class="hero-telemetry-grid">
+        <div class="hero-stat-card">
+          <div class="stat-number">4.8<span>★</span></div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="stat-number">1,400<span>+</span></div>
+          <div class="stat-label">Athletes Trained</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="stat-number">6<span>AM</span></div>
+          <div class="stat-label">To 10:45 PM Daily</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="stat-number">100<span>%</span></div>
+          <div class="stat-label">Certified Coaches</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Play/Pause -->
+    <div class="video-control-pill">
+      <span>Gemini 4K Cine</span>
+      <button class="video-control-btn" id="vidToggle" aria-label="Toggle Video">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- Interactive Training Goal & Split Calculator -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pill">Interactive Protocol</span>
+        <h2 class="section-title">Configure Your Training Split</h2>
+        <p class="section-desc">Select your target athletic goal and weekly training commitment to generate an evidence-based periodization program.</p>
+      </div>
+
+      <div class="estimator-card">
+        <div class="estimator-grid">
+          <div class="estimator-group">
+            <label for="fitGoal">Select Your Main Goal</label>
+            <select id="fitGoal" class="estimator-select">
+              <option value="Muscle Hypertrophy &amp; Size">Muscle Hypertrophy &amp; Maximum Size</option>
+              <option value="Powerlifting Strength PRs">Powerlifting &amp; 1RM Strength PRs</option>
+              <option value="Fat Loss &amp; Lean Recomposition">Fat Loss &amp; Lean Recomposition</option>
+              <option value="Functional Athletic Conditioning">Functional Athletic &amp; Turf Conditioning</option>
+            </select>
+          </div>
+
+          <div class="estimator-group">
+            <label for="fitDays">Weekly Commitment</label>
+            <select id="fitDays" class="estimator-select">
+              <option value="4 Days / Week">4 Days / Week (Upper / Lower)</option>
+              <option value="3 Days / Week">3 Days / Week (Full Body Compound)</option>
+              <option value="5 Days / Week">5 Days / Week (Upper / Lower + PPL)</option>
+              <option value="6 Days / Week">6 Days / Week (Push / Pull / Legs 2x)</option>
+            </select>
+          </div>
+
+          <div class="estimator-output-panel">
+            <div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">Recommended Split</div>
+              <div id="fitSplit" style="font-family: var(--font-display); font-size: 1.45rem; font-weight: 800; color: var(--neon-mint); text-transform: uppercase;">Upper / Lower Hypertrophy Split</div>
+            </div>
+            <div>
+              <div style="font-size: 0.8rem; color: var(--text-muted); text-transform: uppercase;">Coaching Focus</div>
+              <div id="fitCoaching" style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 700; color: #FFFFFF;">RPE-Based Progressive Overload</div>
+            </div>
+            <a href="#" id="fitWaBtn" class="btn-hero-primary" style="padding: 0.75rem 1.4rem;">
+              <svg class="wa-icon-dual" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="11" fill="#FFFFFF"/>
+                <path d="M17.5 14.4c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1-.2.2-.6.7-.8.9-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.7-.6-1.1-1.3-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4-.1-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.1 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3z" fill="#25D366"/>
+              </svg>
+              <span>Book Trial Pass on WhatsApp</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Facility Zones Bento Grid -->
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pill">Studio Architecture</span>
+        <h2 class="section-title">Built for Serious Athletes</h2>
+        <p class="section-desc">Experience uninterrupted workouts with heavy-duty commercial equipment, specialized lifting platforms, and dedicated recovery spaces.</p>
+      </div>
+
+      <div class="bento-grid">
+        <div class="bento-card">
+          <div class="card-media">
+            <img src="assets/images/strength_power_rack.jpg" alt="Olympic Powerlifting Section" loading="lazy">
+            <span class="card-tag">Heavy Iron</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Olympic Powerlifting Racks</h3>
+            <p class="card-text">Commercial heavy-gauge steel squat cages, competition Olympic barbells, rubber bumper plates, and deadlift drop mats.</p>
+            <a href="https://wa.me/919007277594?text=Powerlifting%20Zone%20Trial" class="btn-card-inquire">Inquire on WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="bento-card">
+          <div class="card-media">
+            <img src="assets/images/biomechanical_selectorized.jpg" alt="Biomechanical Strength Machines" loading="lazy">
+            <span class="card-tag">Hypertrophy</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Biomechanical Cable Suite</h3>
+            <p class="card-text">Dual adjustable pulley systems, converged chest presses, lat pulldowns, and isolated leg press stations engineered for exact joint mechanics.</p>
+            <a href="https://wa.me/919007277594?text=Machine%20Training%20Trial" class="btn-card-inquire">Inquire on WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="bento-card">
+          <div class="card-media">
+            <img src="assets/images/functional_turf_training.jpg" alt="Functional Sprint Turf" loading="lazy">
+            <span class="card-tag">Conditioning</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">High-Intensity Sprint Turf</h3>
+            <p class="card-text">Indoor sprint turf track with weight sleds, battle ropes, plyometric boxes, kettlebell racks, and TRX suspension trainers.</p>
+            <a href="https://wa.me/919007277594?text=Functional%20Turf%20Trial" class="btn-card-inquire">Inquire on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Member Reviews -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-pill">South Kolkata Reviews</span>
+        <h2 class="section-title">What Our Members Say</h2>
+        <p class="section-desc">Over 4.8★ rated with hundreds of authentic transformation stories across Baghajatin, Jadavpur, and Garia.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div>
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-quote">"Best gym in the Baghajatin / Ganguly Bagan stretch! The machinery is solid, plates are always organized, and trainers correct form without pushing unnecessary supplements."</p>
+          </div>
+          <div class="reviewer-meta">
+            <div class="reviewer-avatar">SB</div>
+            <div>
+              <div class="reviewer-name">Soumyajit Bose</div>
+              <div class="reviewer-loc">Baghajatin Colony, Kolkata</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-quote">"Lost 12 kg in 4 months with personal training from Coach Rahul. The nutritional guidance and progressive lifting changed my energy levels completely."</p>
+          </div>
+          <div class="reviewer-meta">
+            <div class="reviewer-avatar">AD</div>
+            <div>
+              <div class="reviewer-name">Anirban Dutta</div>
+              <div class="reviewer-loc">Jadavpur Connector, Kolkata</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="review-quote">"Love the 6 AM opening hours. I get my heavy deadlifts and cardio completed before heading to office in Sector V. Clean washrooms and great music."</p>
+          </div>
+          <div class="reviewer-meta">
+            <div class="reviewer-avatar">SM</div>
+            <div>
+              <div class="reviewer-name">Sayani Majumder</div>
+              <div class="reviewer-loc">Ganguly Bagan, Kolkata</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-wrapper">
+            <div class="brand-emblem">
+              <svg viewBox="0 0 24 24"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-name">ANDROGEN</span>
+              <span class="brand-sub">FITNESS STUDIO &bull; KOLKATA</span>
+            </div>
+          </div>
+          <p>South Kolkata's premier athletic training facility. Featuring Olympic powerlifting cages, imported biomechanical machines, sprint turf, and certified 1-on-1 coaching.</p>
+        </div>
+        <div>
+          <h4 class="footer-heading">Training Programs</h4>
+          <ul class="footer-links">
+            <li><a href="programs.html">Hypertrophy &amp; Strength</a></li>
+            <li><a href="programs.html">Metabolic Turf Conditioning</a></li>
+            <li><a href="trainers.html">1-on-1 Personal Coaching</a></li>
+            <li><a href="transformations.html">Fat Loss &amp; Recomposition</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Studio Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="facilities.html">Gym Equipment Deck</a></li>
+            <li><a href="reviews.html">Member Reviews</a></li>
+            <li><a href="contact.html">Find Studio Route</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Visit Studio</h4>
+          <p style="color: var(--text-muted); font-size: 0.88rem; line-height: 1.6; margin-bottom: 0.75rem;">
+            23, Raja Subodh Chandra Mallick Rd, SPD Block, Ajanta Park, Baghajatin Colony, Kolkata &ndash; 700047 (near Ganguly Bagan / Jadavpur).
+          </p>
+          <p style="color: var(--neon-mint); font-size: 0.88rem; font-weight: 700;">
+            Mon &ndash; Sat: 6:00 AM &ndash; 10:45 PM | Sun: Closed
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Androgen &mdash; The Fitness Studio. High-Performance Athletic Training. All Rights Reserved.</div>
+        <div>Baghajatin &bull; Ganguly Bagan &bull; Kolkata, WB</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Pill -->
+  <a href="https://wa.me/919007277594?text=Hello%20Androgen!%20I%20would%20like%20to%20book%20a%20free%201-day%20trial%20workout." class="floating-wa-btn" aria-label="WhatsApp Studio">
+    <svg class="wa-icon-dual" viewBox="0 0 24 24" width="28" height="28">
+      <circle cx="12" cy="12" r="11" fill="#FFFFFF"/>
+      <path d="M17.5 14.4c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1-.2.2-.6.7-.8.9-.1.1-.3.2-.5.1-.2-.1-.9-.3-1.8-1.1-.7-.6-1.1-1.3-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.3-.4.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4-.1-.1-.5-1.3-.7-1.8-.2-.5-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.1 1.8 2.7 4.3 3.8.6.3 1.1.4 1.4.5.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.4-.3z" fill="#25D366"/>
+    </svg>
+  </a>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
